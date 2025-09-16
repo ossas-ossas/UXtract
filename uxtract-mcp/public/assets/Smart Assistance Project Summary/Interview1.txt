@@ -1,0 +1,47 @@
+# New Text File
+Project Title: Usability Test for HealthTrack – Mobile Health Monitoring App
+Participant ID: P01
+Facilitator: UX Researcher
+Date: 2025-05-01
+
+[Introduction]
+
+Researcher: Thank you for joining us today. We're testing the usability of HealthTrack, a mobile app that helps users monitor their fitness and medical conditions. This session will take around 30 minutes. Please feel free to think aloud as you interact with the app.
+
+Participant: Sure, sounds good.
+
+[Task 1: Set a Daily Step Goal]
+
+Researcher: Please open the app and set a daily step goal.
+
+Participant: Okay... hmm... where do I do that? I'm clicking on the profile... No, maybe it's under settings... oh here, 'Goals'.
+Researcher: What are you thinking?
+Participant: It's not super intuitive. I expected to find the goal-setting on the home screen.
+
+[Task 2: Log Today's Meal]
+
+Researcher: Now, please try to log your lunch.
+
+Participant: Alright. I'm tapping "Food Log"... now I need to search for 'Chicken Salad'... Hmm, this search bar is lagging a bit.
+Researcher: Anything surprising?
+Participant: Yeah, I thought it would suggest items automatically. Also, the nutritional info is a bit hard to read.
+
+[Task 3: Check Blood Pressure History]
+
+Researcher: Please find your previous blood pressure readings.
+
+Participant: Umm... I don't see anything that says 'Blood Pressure'. Maybe under 'Vitals'?... oh got it.
+Researcher: How was that experience?
+Participant: Took me a while. The icons are not very clear—maybe add some text labels?
+
+[General Impressions]
+
+Researcher: How would you describe your overall experience using the app?
+
+Participant: Overall, it's okay. The app looks modern and clean, but some features are buried too deep. Also, the font is small—I had to squint a few times. But I like the reminders and daily summaries.
+
+[Closing]
+
+Researcher: Thank you so much. Is there anything else you'd like to share?
+
+Participant: Maybe just a simpler home screen and more personalized recommendations would be nice. Thanks.

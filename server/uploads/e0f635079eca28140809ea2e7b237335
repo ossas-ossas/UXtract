@@ -1,0 +1,16 @@
+README - Soccer Match Outcome Prediction
+
+Author: Yunpeng Li
+Student ID: 1125934
+
+This project uses three ML models (Logistic Regression, Random Forest, XGBoost) to predict soccer match outcomes using the European Soccer Database.
+
+How to Run:
+------------
+1) Install dependencies:
+   pip install pandas scikit-learn xgboost matplotlib seaborn
+2) Run:
+   python soccer_match_prediction.py
+3) Outputs:
+   - Performance metrics (bar chart, heatmap, radar plot, confusion matrices)
+   - Images saved in the images/ folder
