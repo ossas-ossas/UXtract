@@ -76,7 +76,7 @@ export default function Workspace() {
       },
       {
         sentiment: 'Negative',
-        summary: 'No feedback was shown after pressing submit. The user expressed confusion and wasn't sure if the action worked.',
+        summary: 'No feedback was shown after pressing submit. The user expressed confusion and wasn\'t sure if the action worked.',
         timestamp: '18:03:03',
         topics: ['missing feedback', 'usability'],
         confidence: 88,
@@ -421,7 +421,7 @@ function InsightCard({ result, isTxt }) {
         <span className="workspace-analysis-time">{result.timestamp}</span>
         {isTxt && (
           <span style={{marginLeft:'auto',marginRight:8,display:'flex',alignItems:'center',gap:6}}>
-            <span title="AI Confidence" style={{display:'inline-block',background:'rgba(182,240,156,0.13)',color:'#B6F09C',borderRadius:'50%',width:36,height:36,display:'flex',alignItems:'center',justifyContent:'center',fontWeight:700,fontSize:16,border:'2px solid #B6F09C'}}>{result.confidence}%</span>
+            <span title="AI Confidence" style={{display:'flex',background:'rgba(182,240,156,0.13)',color:'#B6F09C',borderRadius:'50%',width:36,height:36,alignItems:'center',justifyContent:'center',fontWeight:700,fontSize:16,border:'2px solid #B6F09C'}}>{result.confidence}%</span>
           </span>
         )}
         <div className="card-actions">

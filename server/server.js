@@ -9,9 +9,29 @@ const csvParse = require('csv-parse/sync')
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 const hf = new HfInference(process.env.HF_API_KEY)
-const upload = multer({ dest: 'uploads/' })
+
+// 确保上传目录存在
+const uploadDir = 'uploads';
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+}
+
+const upload = multer({ dest: uploadDir + '/' })
 const app = express()
 
+// 添加 CORS 支持
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
+
+app.use(express.json());
 app.use('/uploads', express.static('uploads'))
 
 app.post('/api/analyze', upload.single('file'), async (req, res) => {
